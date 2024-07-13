@@ -38,7 +38,7 @@ function Home() {
         Hello, {user?.firstName} {user?.lastName}, Welcome to  Project Tracker!
       </h1>
 
-      <div className="grid grid-cols-4 gap-5 mt-5 w-fit">
+      <div className="grid grid-cols-4 gap-5 mt-5 w-fit bg-green-500">
         {projects.map((project) => (
           <div
             className="flex flex-col gap-1 border border-solid border-gray-400 rounded-md p-2 cursor-pointer"
